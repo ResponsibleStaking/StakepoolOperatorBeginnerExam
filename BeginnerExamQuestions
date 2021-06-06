@@ -1,0 +1,414 @@
+(Type): multiplechoice
+(Category): 1
+(Grade style): 0
+(Random answers): 1
+(Question): I'm currently planning to host my Infrastructure. The following are valid hosting options.
+(choose 3 of 4)
+(A): I host on a VPS provider which takes care on availability relevant considerations.
+(B): I'm planning to combine a private and cloud hosting. I will avoid a single point of failure for the Block Producer through a failover strategy.
+(C): I host my servers at private locations and take care on availability relevant considerations myself including battery backed power, high-available network, backup, redundant internet .. myself. 
+(D): I run it in Virtual Machines on my Desktop Computer which I only run when I'm, working.
+(Correct): A,B,C
+(Points): 1
+(CF): Running a self hosted environment is a valid option if you are able to handle all security and availability related aspects. Having a variety of hosting locations is important for decentralization. Anyways there are several concerns which are really hard to achieve at home. If there is a power outage even your battery backup will not keep your server alive forever. Without a split to multiple physical locations super high availability is not possible.
+(WF): Running a self hosted environment is a valid option if you are able to handle all security and availability related aspects. Having a variety of hosting locations is important for decentralization. Anyways there are several concerns which are really hard to achieve at home. If there is a power outage even your battery backup will not keep your server alive forever. Without a split to multiple physical locations super high availability is not possible.
+
+
+(Type): multiplechoice
+(Category): 1
+(Grade style): 0
+(Random answers): 1
+(Question): Which of the following hosting strategies supports decentralization in the best possible way?
+(Choose 2 of 4)
+(A): I find out which locations are already well established in the network and host somewhere else.
+(B): I use one of the hosting providers which are not hosting already most of the nodes.
+(C): I use the hosting provider which is able to provide the lowest rate.
+(D): I go with the provider I know from past projects.
+(Correct): A,B
+(Points): 1
+(CF): Find details about Infrastructure Provider split here: [url=https://nasec.co.uk/2020/12/28/cardano-decentralisation/]How decentralised is Cardano's Network by Infrastructure Provider[/url]
+(WF): Find details about Infrastructure Provider split here: [url=https://nasec.co.uk/2020/12/28/cardano-decentralisation/]How decentralised is Cardano's Network by Infrastructure Provider[/url]
+
+
+(Type): multiplechoice
+(Category): 1
+(Grade style): 0
+(Random answers): 1
+(Question): Which statements about possible infrastructures are true? 
+(Choose 3 of 4)
+(A): 1 Relay, 1 Block Producer is the minimum setup.
+(B): 2 Relay, 1 Block Producer is recommended.
+(C): Additional Relays in distributed locations are helping to decrease worldwide propagation times and help me to increase the change of receiving new blocks fast.
+(D): 2 Block Producer may run at the same time to achieve high availability.
+(Correct): A,B,C
+(Points): 1
+(CF): Running more than one block producer at the same time can cause chain forks every time a block is minted. If this is done to achieve redundancy, additional measures must be taken to ensure that only one BP can forward a block to the network
+(WF): Running more than one block producer at the same time can cause chain forks every time a block is minted. If this is done to achieve redundancy, additional measures must be taken to ensure that only one BP can forward a block to the network
+
+
+(Type): multiplechoice
+(Category): 1
+(Grade style): 0
+(Random answers): 1
+(Question): Which aspects are valid to increase availability?
+(Choose 2 of 4)
+(A): Run multiple Relays
+(B): Run multiple Block Producers at the same time
+(C): Run a standby Block Producer with a switchover strategy
+(D): Ramp up a new Block Producer when it crashes
+(Correct): A,C
+(Points): 1
+(CF): Running more than one block producer at the same time can cause chain forks every time a block is minted. If this is done to achieve redundancy, additional measures must be taken to ensure that only one BP can forward a block to the network. 
+(WF): Running more than one block producer at the same time can cause chain forks every time a block is minted. If this is done to achieve redundancy, additional measures must be taken to ensure that only one BP can forward a block to the network
+
+
+(Type): multiplechoice
+(Category): 2
+(Grade style): 0
+(Random answers): 1
+(Question): Which of the following statements is true about the rewards calculation in Cardano?
+(Choose 3 of 4)
+(A): The rewards formula is used to calculate the rewards at the end of an epoch.
+(B): The fixed cost is removed before calculating the delegators rewards.
+(C): Margin is calculated from the rewards after fixed cost.
+(D): Fixed income is rewarded to the operator in any case.
+(Correct): A,B,C
+(Points): 1
+(CF): Rewards Formula: [url=https://docs.cardano.org/en/latest/explore-cardano/understanding-pledging-and-rewards.html]https://docs.cardano.org/en/latest/explore-cardano/understanding-pledging-and-rewards.html[/url]
+
+Sheet with some examples to get a rough feeling:  calculations: [url=https://docs.google.com/spreadsheets/d/1ztm6Jov85Vk7AGtZ22BVE3I-BhzIlubnLSTUEomdq4U/edit?usp=sharing]https://docs.google.com/spreadsheets/d/1ztm6Jov85Vk7AGtZ22BVE3I-BhzIlubnLSTUEomdq4U/edit?usp=sharing[/url]
+
+Online Calculator: [url=https://dynamicstrategies.io/crewardcalculator]https://dynamicstrategies.io/crewardcalculator[/url]
+(WF): Rewards Formula: [url=https://docs.cardano.org/en/latest/explore-cardano/understanding-pledging-and-rewards.html]https://docs.cardano.org/en/latest/explore-cardano/understanding-pledging-and-rewards.html[/url]
+
+Sheet with some examples to get a rough feeling:  calculations: [url=https://docs.google.com/spreadsheets/d/1ztm6Jov85Vk7AGtZ22BVE3I-BhzIlubnLSTUEomdq4U/edit?usp=sharing]https://docs.google.com/spreadsheets/d/1ztm6Jov85Vk7AGtZ22BVE3I-BhzIlubnLSTUEomdq4U/edit?usp=sharing[/url]
+
+Online Calculator: [url=https://dynamicstrategies.io/crewardcalculator]https://dynamicstrategies.io/crewardcalculator[/url]
+
+
+(Type): multiplechoice
+(Category): 2
+(Random answers): 1
+(Question): How long does it take from the initial delegation until the first rewards are distributed to a delegator?
+(A): At the end of the epoch.
+(B): 2 Epochs
+(C): 4 Epochs
+(D): Until the Delegator stops the delegation
+(Correct): C
+(Points): 1
+(CF): Diagram showing the delegation cycle:
+[url=https://www.reddit.com/r/cardano/comments/hzhoh6/the_delegation_cycle_when_you_will_be_able_to/]https://www.reddit.com/r/cardano/comments/hzhoh6/the_delegation_cycle_when_you_will_be_able_to/[/url]
+(WF): Diagram showing the delegation cycle:
+[url=https://www.reddit.com/r/cardano/comments/hzhoh6/the_delegation_cycle_when_you_will_be_able_to/]https://www.reddit.com/r/cardano/comments/hzhoh6/the_delegation_cycle_when_you_will_be_able_to/[/url]
+
+
+(Type): multiplechoice
+(Category): 2
+(Random answers): 1
+(Question): The chance per epoch that a slot is assigned to my pool with an active stake of 500k is roughly:
+(A): 50%
+(B): 20%
+(C): 100%
+(D): 70%
+(Correct): A
+(Points): 1
+(CF): Per 1 million ADA on average 1 slot is assigned. But it could also be 0,2,3,...
+
+The chance is distributed as (for 1 mio active stake):
+0 blocks: 39%
+1 block: 37%
+2 blocks: 18%
+3 blocks: 7%
+4 blocks: 1%
+(WF): Per 1 million ADA on average 1 slot is assigned. But it could also be 0,2,3,...
+
+The chance is distributed as (for 1 mio active stake):
+0 blocks: 39%
+1 block: 37%
+2 blocks: 18%
+3 blocks: 7%
+4 blocks: 1%
+
+
+(Type): multiplechoice
+(Category): 2
+(Random answers): 1
+(Question): The amount of slots which is assigned to me is based on my active stake and ...
+(A): Luck
+(B): Server Performance
+(C): Number of Delegators
+(D): Location of the Server
+(Correct): A
+(Points): 1
+(CF): All 21.600 Slots of the Epoch are individually assigned to a pool with a change of [Pools Active Stake] / [Total Active Stake of All Pools].
+(WF): All 21.600 Slots of the Epoch are individually assigned to a pool with a change of [Pools Active Stake] / [Total Active Stake of All Pools].
+
+
+(Type): truefalse
+(Category): 2
+(Random answers): 0
+(Question): Is this a true statement: I have an active stake of 300k which represents a block chance of ~30%. This epoch I was not elected for a block. Therefore my chances for the next epoch is increasing.
+(A): True
+(B): False
+(Correct): B
+(Points): 1
+(CF): As in the casino: Past is not influencing future.
+(WF): As in the casino: Past is not influencing future.
+
+
+(Type): multiplechoice
+(Category): 2
+(Random answers): 1
+(Question): Will the rewards change over time?
+(A): Yes, rewards from the reserves will be reduced over time.
+(B): Yes, Network parameters which influence the rewards calculation may change (e.g. Pledge Factor)
+(C): Yes, CIPs (Cardano Improvement Requests) may change the calculation
+(D): All of the mentioned
+(Correct): D
+(Points): 1
+(CF): Cardano Monetary Policy:
+[url=https://docs.cardano.org/en/latest/explore-cardano/cardano-monetary-policy.html]https://docs.cardano.org/en/latest/explore-cardano/cardano-monetary-policy.html[/url]
+(WF): Cardano Monetary Policy:
+[url=https://docs.cardano.org/en/latest/explore-cardano/cardano-monetary-policy.html]https://docs.cardano.org/en/latest/explore-cardano/cardano-monetary-policy.html[/url]
+
+
+(Type): multiplechoice
+(Category): 3
+(Random answers): 1
+(Question): Which administration skills do I need to run a Stake Pool?
+(A): Linux Operating System, Hardening, Firewall, VPN
+(B): Operations Skills like Backup/Recovery, Monitoring and system maintenance
+(C): Networking Skills to separate Private / Public Networks
+(D): All
+(Correct): D
+(Points): 1
+
+
+(Type): multiplechoice
+(Category): 3
+(Grade style): 0
+(Random answers): 1
+(Question): To protect the Block Producer node I…
+(Choose 2 of 4)
+(A): have to host it at home
+(B): make sure only the relay nodes are able to connect to it.
+(C): place it on a dedicated physical machine.
+(D): do not run topology updater on the block producer.
+(Correct): B,D
+(Points): 1
+
+
+(Type): multiplechoice
+(Category): 3
+(Grade style): 0
+(Random answers): 1
+(Question): The Cardano service should run ...
+(Choose 2 of 4)
+(A): as a service
+(B): as a manually started bash script
+(C): as root user
+(D): as an individual user with no sudo permissions
+(Correct): A,D
+(Points): 1
+
+
+(Type): multiplechoice
+(Category): 3
+(Grade style): 0
+(Random answers): 1
+(Question): Which are possible strategies to protect a server from DDOS Attacks?
+(Choose 3 of 4)
+(A): Only expose the service to peers which you know.
+(B): Run a private relay which is not announced to the network and therefore cannot be exploited.
+(C): Place the service behind a WAF
+(D): The Cardano Node has a built in protection to mitigate DDOS Attacks
+(Correct): A,B,C
+(Points): 1
+(CF): Having a private relay does not allow an attacker to explicitly target all relays of your pool and would keep your Block producer connected in an attack scenario.
+
+Only exposing the server to known peers is possible but also limits the decentralization potential since and the administrative overhead is high.
+
+P2P extensions of the Cardano Node will also make this approach obsolete.
+
+A WAF (Web Application Firewall) maybe be a possible solution but requires according training.
+(WF): Having a private relay does not allow an attacker to explicitly target all relays of your pool and would keep your Block producer connected in an attack scenario.
+
+Only exposing the server to known peers is possible but also limits the decentralization potential since and the administrative overhead is high.
+
+P2P extensions of the Cardano Node will also make this approach obsolete.
+
+A WAF (Web Application Firewall) maybe be a possible solution but requires according training.
+
+
+(Type): multiplechoice
+(Category): 4
+(Grade style): 0
+(Random answers): 1
+(Question): What can be the reason if I was assigned with a block but not get rewarded for it?
+(Choose 3 of 4)
+(A): Time is not synchronized
+(B): KES expired
+(C): Server lost the internet connection
+(D): My pool lost delegators since the block was assigned
+(Correct): A,B,C
+(Points): 1
+(CF): Time syncronization with NTP is not accurate enough (can add up to 1s in the worst case which already is the next slot in cardano). It's recommended to use chrony instead: [url=https://youtu.be/bkEz7GZLFVY]https://youtu.be/bkEz7GZLFVY[/url]
+
+If time is not synced the block might be produced to late and not be accepted by the network any more. 
+
+If the KES is expired the signing is simply not possible and the block is lost for your pool.
+(WF): Time syncronization with NTP is not accurate enough (can add up to 1s in the worst case which already is the next slot in cardano). It's recommended to use chrony instead: [url=https://youtu.be/bkEz7GZLFVY]https://youtu.be/bkEz7GZLFVY[/url]
+
+If time is not synced the block might be produced to late and not be accepted by the network any more. 
+
+If the KES is expired the signing is simply not possible and the block is lost for your pool.
+
+
+(Type): truefalse
+(Category): 4
+(Random answers): 0
+(Question): When creating my pool I make sure that…
+(A): Pool and Pledge signing keys are never stored on a machine which is connected to the internet
+(B): My computer is connected to the internet to execute the transaction straight away
+(Correct): A
+(Points): 1
+(CF): If someone got access to your machine through a trojan or some other attack mechanism he could explit the keys and transfer your ADA or manipulate your pool marameters.
+(WF): If someone got access to your machine through a trojan or some other attack mechanism he could explit the keys and transfer your ADA or manipulate your pool marameters.
+
+
+(Type): multiplechoice
+(Category): 4
+(Grade style): 0
+(Random answers): 1
+(Question): The following files are required on my Block producer node
+(Choose 2 of 4)
+(A): VRF and KES key pair
+(B): VRF and KES signing key
+(C): Operational Certificate
+(D): Cold Key Pair
+(Correct): B,C
+(Points): 1
+(CF): Only the Operational Certificate, VRF signing key and KES signing key are required.
+(WF): Only the Operational Certificate, VRF signing key and KES signing key are required.
+
+
+(Type): truefalse
+(Category): 4
+(Random answers): 0
+(Question): When I change pledge of a running stake pool I can immediately reduce my funds
+(A): True
+(B): False
+(Correct): B
+(Points): 1
+(CF): The changed pledge will get active with the next epoch. If you move out your funds immediatly your pool will be underpleged for the currently running epoch.
+(WF): The changed pledge will get active with the next epoch. If you move out your funds immediatly your pool will be underpleged for the currently running epoch.
+
+
+(Type): multiplechoice
+(Category): 4
+(Grade style): 0
+(Random answers): 1
+(Question): When I change my pool parameters or retire my pool I
+(Choose 3 of 4)
+(A): Inform my delegators before the change
+(B): Create the transaction on an air gapped machine
+(C): Just change it. Delegators will be informed through Pool Comparison tools
+(D): Make sure to meet pledge if I change the pledge attribute.
+(Correct): A,B,D
+(Points): 1
+(CF): If the pledge is not met there will be no rewards for you pool and your delegators.
+
+Additionally it is important to inform your delegators to not surprise them and make them possibly uncomfortable with your pool.
+
+Again signing transactions should be handled on a offline (air gapped) machine to avoid a potential exploitation of your private keys.
+(WF): If the pledge is not met there will be no rewards for you pool and your delegators.
+
+Additionally it is important to inform your delegators to not surprise them and make them possibly uncomfortable with your pool.
+
+Again signing transactions should be handled on a offline (air gapped) machine to avoid a potential exploitation of your private keys.
+
+
+(Type): multiplechoice
+(Category): 5
+(Grade style): 0
+(Random answers): 1
+(Question): How can I attract delegators?
+(Choose 3 of 4)
+(A): Have the most competitive pool parameters (pledge, fixed cost, margin)
+(B): Have a unique concept or specific USP.
+(C): Run social campaigns.
+(D): Delegators will be assigned to my pool automatically.
+(Correct): A,B,C
+(Points): 1
+(CF): Strategies are very different and individual operators may find the one or the other more suitable. 
+
+In any case delegators need to activiely decide for you pool. No one will be assigned automatically.
+(WF): Strategies are very different and individual operators may find the one or the other more suitable. 
+
+In any case delegators need to activiely decide for you pool. No one will be assigned automatically.
+
+
+(Type): multiplechoice
+(Category): 5
+(Grade style): 0
+(Random answers): 1
+(Question): The following are true statements:
+(Choose 2 of 4)
+(A): As delegator I can expect the same rewards no matter which pool I choose.
+(B): Pledge influences delegators ROA more than saturation level.
+(C): When somebody hacks my Stake Pool the funds of my delegators are safe.
+(D): There are many more Stake Pools currently running than required (desired pools defined by the network's k parameter).
+(Correct): C,D
+(Points): 1
+(CF): Number of Pools: Currently 500 pools are desired (defined by the k parameter). 2500 are running. This means many will not be succesful on the long term.
+
+Safety of Funds: The maximum loss a delegator can have is the rewards which will not be paid because of a missing pledge if the attacker moves the operators funds out.
+
+Same Rewards on every Pool: The rewards formula considers pledge. Additionally the fixed cost eats into rewards heavily in low saturated pools.
+(WF): Number of Pools: Currently 500 pools are desired (defined by the k parameter). 2500 are running. This means many will not be succesful on the long term.
+
+Safety of Funds: The maximum loss a delegator can have is the rewards which will not be paid because of a missing pledge if the attacker moves the operators funds out.
+
+Same Rewards on every Pool: The rewards formula considers pledge. Additionally the fixed cost eats into rewards heavily in low saturated pools.
+
+
+(Type): multiplechoice
+(Category): 5
+(Grade style): 0
+(Random answers): 1
+(Question): Which of the following are considerations I need to make to ensure that my pool is legally compliant? 
+(Choose 3 of 4)
+(A): Which entity (private or business) owns the pool
+(B): How to report revenue and taxes
+(C): What regulatory requirements might apply
+(D): If I run the pool just as a hobby there is no need to clarify legal compliance.
+(Correct): A,B,C
+(Points): 1
+(CF): Running pool in a legal compliant way is very important. Not considering this aspect may harm the overall reputation of cardano and may cause financial and legal impacts to you.
+(WF): Running pool in a legal compliant way is very important. Not considering this aspect may harm the overall reputation of cardano and may cause financial and legal impacts to you.
+
+
+(Type): multiplechoice
+(Category): 1
+(Grade style): 0
+(Random answers): 1
+(Question): To ensure a good pool performance I want to achieve high availability. How can I decrease the risk of an outage?
+(Choose 3 of 4)
+(A): Eliminate single points of failure in the infrastructure.
+(B): Make sure an operator is notified if one of the servers is out of service.
+(C): Implement a failover strategy for the Block Producers.
+(D): Implement a failover strategy for the Relays.
+(Correct): A,B,C
+(Points): 1
+(CF): Single points of failure need to be eliminated on all levels. This includes redundant internet, redundant power, multiple physical locations, redundant storage. If a node fails another one needs to continue the work. In case of a Relay outage another relay still needs to remain active. In case of a Block Producer outage a failover should take over the task. This can be implemented through a live migration or switchover to a hot standby. Also spinning up a new instance based on a template is possible but comes with the downside of a not-synchronized database which will cause quite some lead time and therefore a risk to miss blocks.
+
+Monitoring needs to include hardware resource usage (CPU, MEM, Storage), service availability. An integrative check (Database synced withing a specifice timeframe) may be helpful to identify software issues ore network related issues which are not in the control of the single machine.
+
+Ralays to not need a failover strategy. They simply should run all at the same time. Running multiple relays is important to make sure propagation of generated blocks is running smoothly and distributed to as many pools as possible.
+(WF): Single points of failure need to be eliminated on all levels. This includes redundant internet, redundant power, multiple physical locations, redundant storage. If a node fails another one needs to continue the work. In case of a Relay outage another relay still needs to remain active. In case of a Block Producer outage a failover should take over the task. This can be implemented through a live migration or switchover to a hot standby. Also spinning up a new instance based on a template is possible but comes with the downside of a not-synchronized database which will cause quite some lead time and therefore a risk to miss blocks.
+
+Monitoring needs to include hardware resource usage (CPU, MEM, Storage), service availability. An integrative check (Database synced withing a specifice timeframe) may be helpful to identify software issues ore network related issues which are not in the control of the single machine.
+
+Ralays to not need a failover strategy. They simply should run all at the same time. Running multiple relays is important to make sure propagation of generated blocks is running smoothly and distributed to as many pools as possible.
+
+
